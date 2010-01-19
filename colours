@@ -1,0 +1,28 @@
+# muttrc
+#
+# Colour settings
+#
+
+# Colours for items in the reader
+color header brightwhite cyan "^(From|Subject):"
+color header red         cyan "^X-Junked-Because: "
+color header red         cyan "^X-Virus-hagbard: .* FOUND"
+mono  header bold             "^(From|Subject|X-Junked-Because|X-Virus-hagbard):"
+
+
+# URLs
+color body brightblue  black "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
+color body brightblue  black "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
+color body brightblue  black "news:[^ \">\t\r\n]*"
+
+# email addresses
+color body brightblue  black "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
+
+# Various smilies and the like
+color body brightgreen white "<[Gg]>"                                            # <g>
+color body brightgreen white "<[Bb][Gg]>"                                        # <bg>
+color body brightgreen white " [;:]-*[)>(<|]"                                    # :-) etc...
+color body brightblue  white "(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$)" # *Bold* text.
+color body brightblue  white "(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)"     # _Underlined_ text.
+color body brightblue  white "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"     # /Italic/ text.
+

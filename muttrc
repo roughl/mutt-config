@@ -1,0 +1,22 @@
+
+
+set spoolfile = imaps://imap.hsr.ch/INBOX
+set folder    = imaps://imap.hsr.ch/
+mailboxes     = +INBOX
+set imap_user = rnestler
+
+set header_cache = ~/.mutt/hcache
+
+# keep imap connection alive by polling intermittently (time in seconds)
+set imap_keepalive = 300
+
+# how often to check for new mail (time in seconds)
+set mail_check = 120
+
+
+set smtp_url=smtp://rnestler@smtp.hsr.ch
+
+set nomarkers                             # Don't want any wrap markers.
+
+source ~/.mutt/colours
+
