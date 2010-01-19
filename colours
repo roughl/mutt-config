@@ -5,10 +5,6 @@
 
 # Colours for items in the reader
 color header brightwhite cyan "^(From|Subject):"
-color header red         cyan "^X-Junked-Because: "
-color header red         cyan "^X-Virus-hagbard: .* FOUND"
-mono  header bold             "^(From|Subject|X-Junked-Because|X-Virus-hagbard):"
-
 
 # URLs
 color body brightblue  black "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
