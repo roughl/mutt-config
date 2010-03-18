@@ -1,9 +1,5 @@
 
 
-set spoolfile = imaps://imap.hsr.ch/INBOX
-set folder    = imaps://imap.hsr.ch/
-mailboxes     = +INBOX
-set imap_user = rnestler
 
 set header_cache = ~/.mutt/hcache
 
@@ -13,10 +9,9 @@ set imap_keepalive = 300
 # how often to check for new mail (time in seconds)
 set mail_check = 120
 
-
-set smtp_url=smtp://rnestler@smtp.hsr.ch
-
+set tilde                                 # Fill empty space with ~
 set nomarkers                             # Don't want any wrap markers.
+set copy                 # save copies of sent messages
 
 source ~/.mutt/colours
-
+source ~/.mutt/accounts

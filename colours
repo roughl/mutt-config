@@ -3,8 +3,32 @@
 # Colour settings
 #
 
+# Default colour definitions
+#color hdrdefault black        cyan
+#color quoted     red          blue
+#color signature  brightblack  white
+color indicator  brightwhite  blue
+#color attachment black        green
+#color error      red          white
+#color message    blue         white
+#color search     brightwhite  magenta
+#color status     brightyellow blue
+#color tree       red          white
+color normal     white        default
+color tilde      color12      default
+#color bold       brightyellow white
+#color markers    brightwhite    blue
+
+# Colours for items in the index
+#color index brightblue  white ~N
+#color index brightgreen white "~N (~x hagbard\.davep\.org | ~h \"^In-[Rr]eply-[Tt]o: .*hagbard\.davep\.org\")"
+#color index red         white ~F
+#color index black       green ~T
+#color index brightwhite black ~D
+
+
 # Colours for items in the reader
-color header brightwhite cyan "^(From|Subject):"
+color header brightwhite color12 "^(From|Subject):"
 
 # URLs
 color body brightblue  black "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
@@ -15,10 +39,10 @@ color body brightblue  black "news:[^ \">\t\r\n]*"
 color body brightblue  black "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
 
 # Various smilies and the like
-color body brightgreen white "<[Gg]>"                                            # <g>
-color body brightgreen white "<[Bb][Gg]>"                                        # <bg>
-color body brightgreen white " [;:]-*[)>(<|]"                                    # :-) etc...
-color body brightblue  white "(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$)" # *Bold* text.
-color body brightblue  white "(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)"     # _Underlined_ text.
-color body brightblue  white "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"     # /Italic/ text.
+color body brightgreen black "<[Gg]>"                                            # <g>
+color body brightgreen black "<[Bb][Gg]>"                                        # <bg>
+color body brightgreen black " [;:]-*[)>(<|]"                                    # :-) etc...
+color body brightblue  black "(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$)" # *Bold* text.
+color body brightblue  black "(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)"     # _Underlined_ text.
+color body brightblue  black "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"     # /Italic/ text.
 
