@@ -1,0 +1,2 @@
+folder-hook . set sort=date-sent
+folder-hook .vimprobable set sort=threads
