@@ -1,5 +1,18 @@
 
+set sidebar_width=22
+set sidebar_visible=yes
+set sidebar_delim='|'
 
+bind index \CP sidebar-prev 
+bind index \CN sidebar-next 
+bind index \CO sidebar-open 
+bind pager \CP sidebar-prev 
+bind pager \CN sidebar-next 
+bind pager \CO sidebar-open 
+
+# b toggles sidebar visibilit
+macro index B '<enter-command>toggle sidebar_visible<enter>'
+macro pager B '<enter-command>toggle sidebar_visible<enter>' 
 
 set header_cache = ~/.mutt/hcache
 
@@ -12,6 +25,10 @@ set mail_check = 120
 set tilde                                 # Fill empty space with ~
 set nomarkers                             # Don't want any wrap markers.
 set copy                 # save copies of sent messages
+set sort=threads
 
 source ~/.mutt/colours
 source ~/.mutt/accounts
+source ~/.mutt/hooks
+source /usr/share/doc/mutt/samples/gpg.rc
+

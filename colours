@@ -14,7 +14,7 @@ color indicator  brightwhite  blue
 #color search     brightwhite  magenta
 #color status     brightyellow blue
 #color tree       red          white
-color normal     white        default
+color normal     default        default
 color tilde      color12      default
 #color bold       brightyellow white
 #color markers    brightwhite    blue
@@ -31,18 +31,18 @@ color tilde      color12      default
 color header brightwhite color12 "^(From|Subject):"
 
 # URLs
-color body brightblue  black "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
-color body brightblue  black "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
-color body brightblue  black "news:[^ \">\t\r\n]*"
+color body blue  default "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
+color body blue  default "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
+color body blue  default "news:[^ \">\t\r\n]*"
 
 # email addresses
-color body brightblue  black "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
+color body blue  default "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"
 
 # Various smilies and the like
-color body brightgreen black "<[Gg]>"                                            # <g>
-color body brightgreen black "<[Bb][Gg]>"                                        # <bg>
-color body brightgreen black " [;:]-*[)>(<|]"                                    # :-) etc...
-color body brightblue  black "(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$)" # *Bold* text.
-color body brightblue  black "(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)"     # _Underlined_ text.
-color body brightblue  black "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"     # /Italic/ text.
+color body brightgreen white "<[Gg]>"                                            # <g>
+color body brightgreen white "<[Bb][Gg]>"                                        # <bg>
+color body brightgreen white " [;:]-*[)>(<|]"                                    # :-) etc...
+color body brightblue  white "(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$)" # *Bold* text.
+color body brightblue  white "(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)"     # _Underlined_ text.
+color body brightblue  white "(^|[[:space:]])/[^[:space:]]+/([[:space:]]|$)"     # /Italic/ text.
 
