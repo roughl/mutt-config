@@ -3,8 +3,11 @@ set header_cache = ~/.mutt/hcache
 # keep imap connection alive by polling intermittently (time in seconds)
 set imap_keepalive = 300
 
+set beep_new = yes
+
 # how often to check for new mail (time in seconds)
 set mail_check = 120
+set timeout = 300
 
 set tilde                                 # Fill empty space with ~
 set nomarkers                             # Don't want any wrap markers.
