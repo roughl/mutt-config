@@ -15,7 +15,7 @@ color indicator  brightwhite  blue
 #color status     brightyellow blue
 #color tree       red          white
 color normal     default        default
-color tilde      color12      default
+color tilde      blue      default
 #color bold       brightyellow white
 #color markers    brightwhite    blue
 
@@ -28,7 +28,7 @@ color tilde      color12      default
 
 
 # Colours for items in the reader
-color header brightwhite color12 "^(From|Subject):"
+color header brightwhite blue "^(From|Subject):"
 
 # URLs
 color body blue  default "(http|https|ftp|news|telnet|finger)://[^ \">\t\r\n]*"
