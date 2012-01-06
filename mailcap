@@ -1,0 +1,2 @@
+text/html; links -dump %s; nametemplate=%s; copiousoutput
+image/*; display %s
