@@ -1,2 +1,4 @@
 text/html; links -dump %s; nametemplate=%s; copiousoutput
 image/*; display %s
+application/pdf; okular %s
+*/*; xdg-open %s
