@@ -18,6 +18,6 @@ source ~/.mutt/colours
 source ~/.mutt/accounts
 source ~/.mutt/hooks
 source ~/.mutt/sidebar
-source /usr/share/doc/mutt/samples/gpg.rc
+source /etc/Muttrc.gpg.dist
 set mailcap_path = ~/.mutt/mailcap
 
