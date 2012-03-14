@@ -21,3 +21,5 @@ source ~/.mutt/sidebar
 source /etc/Muttrc.gpg.dist
 set mailcap_path = ~/.mutt/mailcap
 
+auto_view text/html
+auto_view application/pdf

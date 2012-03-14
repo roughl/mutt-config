@@ -1,4 +1,5 @@
-text/html; links -dump %s; nametemplate=%s; copiousoutput
+text/html; w3m -dump %s; nametemplate=%s.html; copiousoutput
 image/*; display %s
-application/pdf; okular %s
-*/*; xdg-open %s
+application/pdf; evince %s
+application/pdf; pdftotext %s -; copiousoutput
+application/*; xdg-open %s
