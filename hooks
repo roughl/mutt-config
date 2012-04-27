@@ -2,3 +2,4 @@ folder-hook .                set sort=date-sent
 folder-hook .vimprobable     set sort=threads
 folder-hook .pam-mount-user  set sort=threads
 folder-hook .arch-dev-public set sort=threads
+folder-hook .hedgewars-dev   set sort=threads
