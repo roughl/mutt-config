@@ -3,3 +3,4 @@ folder-hook .vimprobable     set sort=threads
 folder-hook .pam-mount-user  set sort=threads
 folder-hook .arch-dev-public set sort=threads
 folder-hook .hedgewars-dev   set sort=threads
+folder-hook .aur-general   set sort=threads
