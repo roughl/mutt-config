@@ -2,4 +2,4 @@ text/html; w3m -dump %s; nametemplate=%s.html; copiousoutput
 image/*; display %s
 application/pdf; evince %s
 application/pdf; pdftotext %s -; copiousoutput
-application/*; xdg-open %s
+application/*; xdg-open %s ; copiousoutput
